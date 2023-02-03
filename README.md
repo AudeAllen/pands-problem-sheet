@@ -1,11 +1,7 @@
 **Pands-Problem-Sheet Assignment** <br /> 
  <br /> 
-pands-problem-sheet is the first assignment in the Higher Diploma in Data Analytics <br /> 
+pands-problem-sheet is all the assignments in the Higher Diploma in Data Analytics course <br /> 
 <br />
-The main goal of this project was to set up the required software on my local machine Github, Annconda, VS Code and cmder <br /> 
+The helloworld python program should  display Hello World! when it is run <br /> 
 <br />
-Put sample code from Andrew Beatty Github to my respository <br />
-<br />
-Create a respoitory called Problem sheet and push file to the problem sheet respository called helloworld.py <br />
-<br />
-This file should contain a python program that displays Hello World! when it is run.<br /> 
+The Bank python program is a basic python program that adds two input variables in cent and outputs the result in euros and cents <br />
