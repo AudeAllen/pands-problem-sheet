@@ -8,15 +8,10 @@
 amount1 = int(input('Enter amount1(in cent):')) 
 amount2 = int(input('Enter amount2(in cent):')) 
 
-#Set up new variable which is the sum of the two variables
-
-newNumber = amount1 + amount2
-
-
 # New variable to calculate the new amount in euro and cents
 
 money = int(amount1 + amount2)/100      #next you used format without printing, nor affecting value of "money"
-amountAsFormattedString = '${:,.2f}'.format(money)
+amountAsFormattedString = '{:,.2f}'.format(money)
 
 # Print Output
 
