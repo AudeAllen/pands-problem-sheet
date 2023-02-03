@@ -1,6 +1,6 @@
 **Pands-Problem-Sheet Assignment** <br /> 
  <br /> 
-pands-problem-sheet is all the assignments in the Higher Diploma in Data Analytics course <br /> 
+pands-problem-sheet contains all the assignments in the Higher Diploma in Data Analytics course <br /> 
 <br />
 The helloworld python program should  display Hello World! when it is run <br /> 
 <br />
