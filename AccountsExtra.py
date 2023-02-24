@@ -3,6 +3,7 @@
 # and the first part of the number replaced with X's 
 # Author: Audrey Allen
 
+# The below piece of code checks firstly is the input a digit - If not a digit program returns a message 'Enter only Numbers'
 
 while True:
     number = input("Please enter your account number:")
@@ -15,6 +16,8 @@ while True:
 
 credit = (number)
 
+# Once the input is validated as being correct -  A digit must be entered
+# Only the last 4 digits of the number will appear - whatever the length of the input
 
 s = credit[-4:].rjust(len(credit), 'X')
 print(s)
