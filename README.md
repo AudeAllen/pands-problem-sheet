@@ -21,5 +21,7 @@ In regards to Week03 assignments I referenced stackoverflow website to assist wi
 4. The Collatz python program  asks the user to input any positive integer and outputs the successive values of the following calculation.
 At each step calculate the next value by taking the current value and, if it is even, divide it by two, 
 but if it is odd, multiply it by three and add one.
-Have the program end if the current value is one. 
-
+Have the program end if the current value is one. <br />
+<br />
+<br />
+5. The Weekday python program output whether today (the day from today's date) is a weekday or a weeknd day - If the days are 1-5 then is displays Yes, unfortunately today is a weekday - Otherwise the program displays It is the weekend, yay! 
