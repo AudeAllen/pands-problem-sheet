@@ -24,4 +24,7 @@ but if it is odd, multiply it by three and add one.
 Have the program end if the current value is one. <br />
 <br />
 <br />
-5. The Weekday python program output whether today (the day from today's date) is a weekday or a weeknd day - If the days are 1-5 then is displays Yes, unfortunately today is a weekday - Otherwise the program displays It is the weekend, yay! 
+5. The Weekday python program output whether today (the day from today's date) is a weekday or a weeknd day - If the days are 1-5 then is displays Yes, unfortunately today is a weekday - Otherwise the program displays It is the weekend, yay! <br />
+<br />
+<br />
+6. The Function python progam takes the input from the user which is a positive floating-point number as input and outputs an approximation of its square root. The method that is to be used is the newton method. Newton's method works by taking an estimate of the root of the equation and calculating a more accurate estimate, a process that can be repeated to approximate the true value of the root more precisely. Main reference for my work for this task was th website www.geeksforgeeks.org and also www.w3schools.com
