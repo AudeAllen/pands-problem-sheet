@@ -34,11 +34,12 @@ def sqrt(n, l) :
         x = root
  # Return the root
     return root
- 
-# Main piece of code which asks the user to unput a float to get the square root
 
-if __name__ == "__main__" :
+    print(sqrt(n, l))
  
+# Main piece of code which asks the user to input a float to get the square root
+
+if __name__ == "__main__":
     n = float(input('Enter number please: '))
 
     l = 0.00001
@@ -46,3 +47,9 @@ if __name__ == "__main__" :
  # Print the root
 
     print(sqrt(n, l))
+
+    print("The square root of n using the Newton method is ")
+    
+    print(sqrt(n, l))
+
+
