@@ -12,6 +12,7 @@
     * [AccountsExtra](#accountsextra)
     * [Collatz](#collatz)
     * [Weekday](#weekday)
+    * [squareroot](#squareroot)
 
 
   
@@ -169,4 +170,57 @@ else:  # 5 Sat, 6 Sun<br />
 </details>
 <br />
 <br />
-6. The Function python progam takes the input from the user which is a positive floating-point number as input and outputs an approximation of its square root. The method that is to be used is the newton method. Newton's method works by taking an estimate of the root of the equation and calculating a more accurate estimate, a process that can be repeated to approximate the true value of the root more precisely. Main reference for my work for this task was th website www.geeksforgeeks.org and also www.w3schools.com
+
+### ***squareroot*** 
+
+6. The squareroot python progam takes the input from the user which is a positive floating-point number as input and outputs an approximation of its square root. <br />The method that is to be used is the newton method. Newton's method works by taking an estimate of the root of the equation and calculating a more accurate estimate, a process that can be repeated to approximate the true value of the root more precisely. <br />
+<br />
+Main reference for my work for this task was th website www.geeksforgeeks.org and also www.w3schools.com
+<br />
+<details>
+           <summary>Details of Input and Output</summary>
+</p> 
+
+There is an inbuilt function in Python which can calculate the square root we were tasked to create our own function using Newtons method<br />
+<br />
+<br />
+#Newton’s Method is described below: <br />
+Let N be any number then the square root of N can be given by the formula: <br />
+root = 0.5 * (X + (N / X)) where X is any guess which can be assumed to be N or 1. <br />
+<br />
+<br />   
+The name of the function is sqrt
+<br />   
+Assuming the sqrt of n as n only <br /> 
+Assign X to the N itself.<br /> 
+<br /> 
+<br /> 
+x = n
+<br /> 
+<br /> 
+To count the number of iterations/loops<br /> 
+Start a loop and keep calculating the root which will surely move towards the correct square root of N<br /> 
+<br /> 
+<br /> 
+    count = 0<br /> 
+ <br /> 
+ <br /> 
+    while (1) :<br /> 
+        count += 1<br /> 
+        <br /> 
+        <br /> 
+ 
+     Calculate more closed x   <br /> 
+        <br /> 
+        <br /> 
+        root = 0.5 * (x + (n / x))<br /> 
+ <br /> 
+ <br />         
+Check for the difference between the assumed X and calculated root, if not yet inside tolerance then update root and continue <br /> 
+If the calculated root comes inside the tolerance allowed then break out of the loop <br /> 
+<br /> 
+<br />
+<br />
+ 
+        
+        
