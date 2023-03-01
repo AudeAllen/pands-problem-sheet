@@ -11,7 +11,7 @@
     * [Accounts](#accounts)
     * [AccountsExtra](#accountsextra)
     * [Collatz](#collatz)
-
+    * [Weekday](#weekday)
 
 
   
@@ -44,6 +44,8 @@ Weekly tasks
    print (f' The sum of  of {amount1} and {amount2}  is €{amountAsFormattedString}') = €15.89 <br />
 </p>
 </details>
+<br />
+<br />
 
 ### ***Accounts***          
              
@@ -112,6 +114,8 @@ print(s)<br />
 <br />
 </p>
 </details>
+<br />
+<br />
 
 ### ***Collatz*** 
 
@@ -136,7 +140,33 @@ This loop will continue until the value is 1 then the program ends<br />
 </details>
 <br />
 <br />
+
+### ***Weekday*** 
+
+
 5. The Weekday python program output whether today (the day from today's date) is a weekday or a weeknd day - If the days are 1-5 then is displays Yes, unfortunately today is a weekday - Otherwise the program displays It is the weekend, yay! <br />
+Main reference for my work for this task was th website www.geeksforgeeks.org and also www.w3schools.com <br />
+<br />
+<details>
+           <summary>Details of Input and Output</summary>
+</p> 
+
+<br />
+<br />
+
+Import datetime function to get todays day <br />
+
+Setting today as the daynumber - Monday is 1, Tuesday is 2 etc <br />
+
+dayno = datetime.datetime.today().weekday()<br />
+<br />
+<br />
+if dayno < 5:<br />
+    print ("Yes, unfortunately today is a weekday")<br />
+else:  # 5 Sat, 6 Sun<br />
+    print ("It is the weekend, yay!")<br />
+</p>
+</details>
 <br />
 <br />
 6. The Function python progam takes the input from the user which is a positive floating-point number as input and outputs an approximation of its square root. The method that is to be used is the newton method. Newton's method works by taking an estimate of the root of the equation and calculating a more accurate estimate, a process that can be repeated to approximate the true value of the root more precisely. Main reference for my work for this task was th website www.geeksforgeeks.org and also www.w3schools.com
