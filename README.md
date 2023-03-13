@@ -131,7 +131,7 @@ Have the program end if the current value is one. <br />
 User is asked to enter a positive number/integer - 
 <br />
 <br />
-Whilst number > 1 continue <br />
+There is some error handling in this program and I referenced stackoverflow (https://stackoverflow.com/questions/4097461/printing-out-actual-error-message-for-valueerror) and also W3schools for formatting of the query <br />
 <br />
 If number is not divisable by 2 then it is odd - Multiply by 3 and add 1 <br />
 If number is divisable by 2 then it is even so then the program will divide by 2<br />
