@@ -133,8 +133,12 @@ User is asked to enter a positive number/integer -
 <br />
 There is some error handling in this program and I referenced stackoverflow (https://stackoverflow.com/questions/4097461/printing-out-actual-error-message-for-valueerror) and also W3schools for formatting of the query <br />
 <br />
+If the user inputs a negative number or a string the program throws a warning message back to the user <br />
+<br />
 If number is not divisable by 2 then it is odd - Multiply by 3 and add 1 <br />
+<br />
 If number is divisable by 2 then it is even so then the program will divide by 2<br />
+<br />
 This loop will continue until the value is 1 then the program ends<br />
 <br />
 </p>
