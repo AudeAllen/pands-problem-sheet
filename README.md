@@ -13,6 +13,7 @@
     * [Collatz](#collatz)
     * [Weekday](#weekday)
     * [squareroot](#squareroot)
+    * [es](#es)
 
 
   
@@ -225,6 +226,25 @@ If the calculated root comes inside the tolerance allowed then break out of the 
 <br /> 
 <br />
 <br />
- 
+### ***es***
+7. The es python progam # This python program reads in a text file (.txt) and outputs the number of  'e's' that are in the text file.<br />
+The filename is taken from an argument on the command line arg = sys.argv[1] - From the first argument so it ignores the name of the 
+Python program in the command line <br />
+<br />
+Main reference for my work for this task was the website www.geeksforgeeks.org and also www.w3schools.com<br /> 
+I also looked at a utube video which showed how to pass an argument in from the command line<br /> 
+The request was to just pass in one argumnt which was the name of the file but I have also passed in the letter<br /> 
+The utube video is located at https://www.youtube.com/watch?v=QJBVjBq4c7E
+<br />
+<details>
+           <summary>Details of Input and Output</summary>
+</p>  
+Import sys in order to pass an argument from the command line   <br />
+I am going to pass in two arguments here 1. is the name of the file (arg) and 2. is the letter that will be searched for(letter) <br />
+There is also some error handling done in the script - If the filename does not exist it warns the user to enter another filename <br />
+This is done by importing the os function   
+<br />
+
+<br />
         
         
