@@ -264,7 +264,7 @@ This is done by importing the os function
 
 ### ***plottask*** 
 
-8. # plottask.py 
+8.  plottask.py 
 The plottask program creates a histogram with a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2
 Plot of the function  h(x)=x3 in the range [0, 10] <br />
 <br /> 
@@ -298,18 +298,26 @@ plt.plot(xpoints, ypoints, color='r', label = "x cubed")
 Mean = 5<br />
 StdDev = 2<br />
 Total = 1000  <br />
-5. Coded is entered below so that the "random" numbers are the same each time<br />
-
+ <br />
+5. Cod is entered below so that the "random" numbers are the same each time<br />
+<br />
 np.random.seed(1)<br />
+<br />
 6. Set titles and labels and create histogram through matplotlib<br />
+<br />
 plt.title("Week 08 Task - Programming and Scripting", color='black')<br />
+<br />
 plt.xlabel("X = Range 0-10") # Label for X Axis<br />
+<br />
 plt.ylabel("Y = X Cubed") # Label for Y Axis<br />
+<br />
 plt.legend() # Show the Legend<br />
+<br />
 plt.grid() # Show gridlines on Histogram<br />
+<br />
 plt.hist(x) # Histogram<br />
-
+<br />
 plt.savefig('plottask.png') # Save to PNG file<br />
-
+<br />
 plt.show() # Show must be after the savfig or it comes out blank<br />
 
