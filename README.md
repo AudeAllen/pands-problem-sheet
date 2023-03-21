@@ -110,7 +110,8 @@ Only the last 4 digits of the number will appear - whatever the length of the in
 <br />
 s = credit[-4:].rjust(len(credit), 'X')<br />
 <br /> 
-Print the new variable which is (s)<br /> 
+Print the new variable which is (s)<br /> ![Histogram - Week 08 Task](https://user-images.githubusercontent.com/123590406/226714350-59ec0d1f-826b-4773-86d2-ba9c0ce95bc5.png)
+
 <br /> 
 print(s)<br /> 
 <br />
@@ -280,7 +281,8 @@ https://stackoverflow.com/questions/30765455/why-is-my-plt-savefig-is-not-workin
 </p> 
 <br />
 <br />
-Import Numpy and Matplotlib   <br />
+***Import Numpy and Matplotlib***
+   <br />
 Import Numpy to create arrays and mathmatical functions<br />
 <br />
 Import matplotlib to create visualisations in Python<br />
@@ -293,6 +295,7 @@ ypoints = xpoints ** 3    <br />
 <br />
 3.Plot the points add the colour - Also the legend <br />
 plt.plot(xpoints, ypoints, color='r', label = "x cubed")
+<br />
 <br />
 4. Set the values - Mean, Std Deviation and Total<br />
 <br />
@@ -322,5 +325,6 @@ plt.savefig('plottask.png') # Save to PNG file<br />
 <br />
 plt.show() # Show must be after the savfig or it comes out blank<br />
 
+Output as shown below.
 
-
+![plottask](https://user-images.githubusercontent.com/123590406/226714468-582f2977-1a4d-4b16-a119-9f161105e1ac.png)
