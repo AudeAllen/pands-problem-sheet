@@ -14,6 +14,7 @@
     * [Weekday](#weekday)
     * [squareroot](#squareroot)
     * [es](#es)
+    * [plottask](#plottask)
 
 
   
@@ -260,5 +261,55 @@ There is also some error handling done in the script - If the filename does not 
 This is done by importing the os function   
 <br />
 <br />
-        
-        
+
+### ***plottask*** 
+
+8. # plottask.py 
+The plottask program creates a histogram with a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2
+Plot of the function  h(x)=x3 in the range [0, 10] <br />
+<br /> 
+Main reference for my work for this task were the below sites<br /> 
+https://www.w3schools.com/python/matplotlib_histograms.asp<br /> 
+https://www.geeksforgeeks.org/how-to-set-axis-ranges-in-matplotlib/<br /> 
+https://stackoverflow.com/questions/30765455/why-is-my-plt-savefig-is-not-working <br /> 
+<br /> 
+<br /> 
+<details>
+           <summary>Details of Input and Output</summary>
+</p> 
+<br />
+<br />
+Import Numpy and Matplotlib   <br />
+Import Numpy to create arrays and mathmatical functions<br />
+<br />
+Import matplotlib to create visualisations in Python<br />
+<br />
+1. Create an array using Numpy - Array from 0-11<br />
+xpoints = np.array(range(0, 11))<br />
+<br />
+2.  Y Axis is the Cube of the value on the X Axis<br />
+ypoints = xpoints ** 3    <br />
+<br />
+3.Plot the points add the colour - Also the legend <br />
+plt.plot(xpoints, ypoints, color='r', label = "x cubed")
+<br />
+4. Set the values - Mean, Std Deviation and Total<br />
+<br />
+Mean = 5<br />
+StdDev = 2<br />
+Total = 1000  <br />
+5. Coded is entered below so that the "random" numbers are the same each time<br />
+
+np.random.seed(1)<br />
+6. Set titles and labels and create histogram through matplotlib<br />
+plt.title("Week 08 Task - Programming and Scripting", color='black')<br />
+plt.xlabel("X = Range 0-10") # Label for X Axis<br />
+plt.ylabel("Y = X Cubed") # Label for Y Axis<br />
+plt.legend() # Show the Legend<br />
+plt.grid() # Show gridlines on Histogram<br />
+plt.hist(x) # Histogram<br />
+
+plt.savefig('plottask.png') # Save to PNG file<br />
+
+plt.show() # Show must be after the savfig or it comes out blank<br />
+
