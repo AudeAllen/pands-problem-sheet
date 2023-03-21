@@ -264,8 +264,9 @@ This is done by importing the os function
 
 ### ***plottask*** 
 
-8. # plottask.py 
-The plottask program creates a histogram with a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2
+### ***plottask***   
+
+8. The plottask program creates a histogram with a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2
 Plot of the function  h(x)=x3 in the range [0, 10] <br />
 <br /> 
 Main reference for my work for this task were the below sites<br /> 
@@ -279,7 +280,8 @@ https://stackoverflow.com/questions/30765455/why-is-my-plt-savefig-is-not-workin
 </p> 
 <br />
 <br />
-Import Numpy and Matplotlib   <br />
+***Import Numpy and Matplotlib***
+   <br />
 Import Numpy to create arrays and mathmatical functions<br />
 <br />
 Import matplotlib to create visualisations in Python<br />
@@ -293,23 +295,35 @@ ypoints = xpoints ** 3    <br />
 3.Plot the points add the colour - Also the legend <br />
 plt.plot(xpoints, ypoints, color='r', label = "x cubed")
 <br />
+<br />
 4. Set the values - Mean, Std Deviation and Total<br />
 <br />
 Mean = 5<br />
 StdDev = 2<br />
 Total = 1000  <br />
-5. Coded is entered below so that the "random" numbers are the same each time<br />
-
+ <br />
+5. Code is entered below so that the "random" numbers are the same each time<br />
+<br />
 np.random.seed(1)<br />
+<br />
 6. Set titles and labels and create histogram through matplotlib<br />
+<br />
 plt.title("Week 08 Task - Programming and Scripting", color='black')<br />
+<br />
 plt.xlabel("X = Range 0-10") # Label for X Axis<br />
+<br />
 plt.ylabel("Y = X Cubed") # Label for Y Axis<br />
+<br />
 plt.legend() # Show the Legend<br />
+<br />
 plt.grid() # Show gridlines on Histogram<br />
+<br />
 plt.hist(x) # Histogram<br />
-
+<br />
 plt.savefig('plottask.png') # Save to PNG file<br />
-
+<br />
 plt.show() # Show must be after the savfig or it comes out blank<br />
 
+Output as shown below.
+
+![plottask](https://user-images.githubusercontent.com/123590406/226714468-582f2977-1a4d-4b16-a119-9f161105e1ac.png)
