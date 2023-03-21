@@ -258,14 +258,15 @@ I am going to pass in two arguments here<br />
 <br />
 There is also some error handling done in the script - If the filename does not exist it warns the user to enter another filename <br />
 <br />
-This is done by importing the os function   
+This is done by importing the os function  <br /> 
+<br /> 
 <br />
+</details>
 <br />
 
-### ***plottask*** 
+### ***plottask***   
 
-8.  plottask.py 
-The plottask program creates a histogram with a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2
+8. The plottask program creates a histogram with a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2
 Plot of the function  h(x)=x3 in the range [0, 10] <br />
 <br /> 
 Main reference for my work for this task were the below sites<br /> 
@@ -299,7 +300,7 @@ Mean = 5<br />
 StdDev = 2<br />
 Total = 1000  <br />
  <br />
-5. Cod is entered below so that the "random" numbers are the same each time<br />
+5. Code is entered below so that the "random" numbers are the same each time<br />
 <br />
 np.random.seed(1)<br />
 <br />
@@ -320,4 +321,6 @@ plt.hist(x) # Histogram<br />
 plt.savefig('plottask.png') # Save to PNG file<br />
 <br />
 plt.show() # Show must be after the savfig or it comes out blank<br />
+
+
 
