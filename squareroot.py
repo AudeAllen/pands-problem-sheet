@@ -7,9 +7,7 @@
 
 # Name of function is sqrt 
 
-
-
-def sqrt(n, l) :
+def sqrt(n, sqnum) :
  
     # Assuming the sqrt of n as n only
     # Assign X to the N itself.
@@ -18,8 +16,7 @@ def sqrt(n, l) :
     # To count the number of iterations/loops
     # start a loop and keep calculating the root which will surely move towards the correct square root of N
 
-    count = 0
- 
+    count = 0 
     while (1) :
         count += 1
  
@@ -29,29 +26,23 @@ def sqrt(n, l) :
         # Check for the difference between the assumed X and calculated root, if not yet inside tolerance then update root and continue
         # If the calculated root comes inside the tolerance allowed then break out of the loop
 
-        if (abs(root - x) < l) :
+        if (abs(root - x) < sqnum) :
             break
  
         # Update root
         x = root
  # Return the root
     return root
-
-    print(sqrt(n, l))
+    print(sqrt(n, sqnum))
  
 # Main piece of code which asks the user to input a float to get the square root
-
 if __name__ == "__main__":
     n = float(input('Enter number please: '))
-
-    l = 0.00001
+    sqnum = 0.00001
 
  # Print the root
-
-    print(sqrt(n, l))
-
-    print("The square root of n using the Newton method is ")
-    
-    print(sqrt(n, l))
+    print(sqrt(n, sqnum))
+    print("The square root of n using the Newton method is ")    
+    print(sqrt(n, sqnum))
 
 
