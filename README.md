@@ -8,6 +8,7 @@
 # Table of contents
 * [Weekly tasks](#weekly-tasks)
     * [helloworld](#helloworld)
+    * [bank](#bank)
     * [Accounts](#accounts)
     * [AccountsExtra](#accountsextra)
     * [Collatz](#collatz)
@@ -28,6 +29,8 @@ Weekly tasks
 1.The helloworld python program should  display Hello World! when it is run - This is week01 Task <br /> 
 <br />
 <br />
+
+### ***bank***
 2. The Bank python program is a basic python program that adds two input variables in cent and outputs the result in euros and cents -<br /> 
    This program just reads in two money amounts and adds them together <br />
    The answer must be in readable format with a euro sign and decimal point between the euro and cent of the amount    <br />
@@ -40,11 +43,14 @@ Weekly tasks
    <br />
    amount2 = int(input('Enter amount2(in cent):')) 23 - User must enter an integer    <br />
    <br />
-   Then set up a new variable to calculate the amount in cents <br />
+   Use the floor //100 to get euro value and the modulus % maths function % to return the cents value
+   <br />
+   <br />
+   Concatenate the two variables together to get the monetary amount<br />
    <br />
    Then print the output <br />
    <br />
-   print (f' The sum of  of {amount1} and {amount2}  is €{amountAsFormattedString}') = €15.89 <br />
+   print (f' The sum of {amount1} and {amount2} is €{EuroAmount}.{CentAmount}') = €15.89 <br />
 </p>
 </details>
 <br />

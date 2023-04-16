@@ -7,7 +7,7 @@
 #Some error handling done to check that the user has input a positive number
 #Mesesage appears to user if input is a string or is a negative number  
 
-
+import math
 
 while True:
     try:
@@ -24,15 +24,21 @@ while True:
             amount2 = int(input('Enter amount2(in cent):')) 
             
             # Sum of Amount1 and Amount2 / 100 to get the amount in euros and cent
-            money = int(amount1 + amount2)/100  
-            # Format the money variable to 2 decimal places    
-            amountAsFormattedString = '{:,.2f}'.format(money)   
+            # Using the formula floor//100 to get the euro value as cannot /100 as will return a float
+            # % 100 - Modulus function to get the cent amount
 
+            money = int(amount1 + amount2)           
+            EuroAmount = math.floor(money)//100
+            print (EuroAmount)
+            CentAmount = money % 100
+            print (CentAmount)
+               
+           
         
 # Print Output
 # Sum of Amount 1 an amount 2
 
-        print (f' The sum of  of {amount1} and {amount2}  is €{amountAsFormattedString}')   
+        print (f' The sum of {amount1} and {amount2} is €{EuroAmount}.{CentAmount}')  
            
         break        
     except ValueError as e:
