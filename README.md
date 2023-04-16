@@ -110,7 +110,8 @@ Only the last 4 digits of the number will appear - whatever the length of the in
 <br />
 s = credit[-4:].rjust(len(credit), 'X')<br />
 <br /> 
-Print the new variable which is (s)<br /> 
+Print the new variable which is (s)<br /> ![Histogram - Week 08 Task](https://user-images.githubusercontent.com/123590406/226714350-59ec0d1f-826b-4773-86d2-ba9c0ce95bc5.png)
+
 <br /> 
 print(s)<br /> 
 <br />
@@ -258,15 +259,16 @@ I am going to pass in two arguments here<br />
 <br />
 There is also some error handling done in the script - If the filename does not exist it warns the user to enter another filename <br />
 <br />
-This is done by importing the os function   
+This is done by importing the os function  <br /> 
+<br /> 
 <br />
+</details>
 <br />
-
-### ***plottask*** 
 
 ### ***plottask***   
 
-8. The plottask program creates a histogram with a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2
+8. # plottask.py 
+The plottask program creates a histogram with a normal distribution of 1000 values with a mean of 5 and a standard deviation of 2
 Plot of the function  h(x)=x3 in the range [0, 10] <br />
 <br /> 
 Main reference for my work for this task were the below sites<br /> 
